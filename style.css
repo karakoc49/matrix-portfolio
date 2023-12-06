@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); /* Alternative font */
+@import url('https://fonts.cdnfonts.com/css/matrix'); /* Default Matrix themed font */
+
+canvas {
+    z-index: -1;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Matrix';
+    font-weight: bolder;
+    width: 25%;
+}
+.profile-picture {
+    width: 128px;
+    height: 128px;
+    margin: 0 100px;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: medium;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+.social-icons li {
+    margin: 0 8px;
+}
+.social-icons a {
+    display: inline-block;
+}
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+    fill: black;
+    opacity: 1;
+    transition: opacity 0.2s ease;
+}
+.social-icons a:hover img {
+    opacity: 0.6;
+}
+.links {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.links li {
+    margin: 5px 0;
+}
+.links a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 0;
+    opacity: 1;
+    transition: 0.2s ease;
+}
+.links a:hover {
+    color: rgb(0, 255, 0);
+}
+.links i {
+    margin-right: 7px;
+}
